@@ -95,14 +95,9 @@
 				9E5D86C3162ACB4900E726AB /* BirdsAppDelegate.h */,
 				9E5D86C4162ACB4900E726AB /* BirdsAppDelegate.m */,
 				9E5D86CC162ACB4900E726AB /* MainStoryboard.storyboard */,
-				9E5D86DA162ACFC300E726AB /* BirdSighting.h */,
-				9E5D86DB162ACFC300E726AB /* BirdSighting.m */,
-				9E5D86DD162AD2C900E726AB /* BirdSightingDataController.h */,
-				9E5D86DE162AD2C900E726AB /* BirdSightingDataController.m */,
-				9E5D86CF162ACB4900E726AB /* BirdsMasterViewController.h */,
-				9E5D86D0162ACB4900E726AB /* BirdsMasterViewController.m */,
-				9E5D86D2162ACB4900E726AB /* BirdsDetailViewController.h */,
-				9E5D86D3162ACB4A00E726AB /* BirdsDetailViewController.m */,
+				9E5D86E0162AE21D00E726AB /* BirdSightingModel */,
+				9E5D86E1162AE23300E726AB /* Master */,
+				9E5D86E3162AE24300E726AB /* Detail */,
 				9E5D86BB162ACB4900E726AB /* Supporting Files */,
 			);
 			path = BirdWatching;
@@ -120,6 +115,35 @@
 				9E5D86CA162ACB4900E726AB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E5D86E0162AE21D00E726AB /* BirdSightingModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D86DA162ACFC300E726AB /* BirdSighting.h */,
+				9E5D86DB162ACFC300E726AB /* BirdSighting.m */,
+				9E5D86DD162AD2C900E726AB /* BirdSightingDataController.h */,
+				9E5D86DE162AD2C900E726AB /* BirdSightingDataController.m */,
+			);
+			name = BirdSightingModel;
+			sourceTree = "<group>";
+		};
+		9E5D86E1162AE23300E726AB /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D86CF162ACB4900E726AB /* BirdsMasterViewController.h */,
+				9E5D86D0162ACB4900E726AB /* BirdsMasterViewController.m */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		9E5D86E3162AE24300E726AB /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D86D2162ACB4900E726AB /* BirdsDetailViewController.h */,
+				9E5D86D3162ACB4A00E726AB /* BirdsDetailViewController.m */,
+			);
+			name = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
